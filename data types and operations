@@ -10,6 +10,7 @@ print(1//4)------->you will get divisor(right ear of division)
 print(5//4)------->you will get divisor(right ear of division)
 print(5%4)-----------> you will get reminder
 print(6%4)----------> u will get reminder
+print(round(3.1))-------->rounding of figure by replacing float in int
 
 
 
@@ -34,3 +35,4 @@ print(6%4)----------> u will get reminder
 1
 1
 2
+3
