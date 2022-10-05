@@ -1,0 +1,36 @@
+print(type(2 + 4) )
+print(type(2-4))
+print(type(2*4))
+print(type(2/4))
+print(type(1.9))
+print(type(float(7.1+1.9)))
+print(type(int(7.1+1.9)))
+print(2**3)---------> two power of three
+print(1//4)------->you will get divisor(right ear of division)
+print(5//4)------->you will get divisor(right ear of division)
+print(5%4)-----------> you will get reminder
+print(6%4)----------> u will get reminder
+
+
+
+
+
+
+
+
+
+
+---------------------/
+<solutions>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'float'>
+<class 'float'>
+<class 'float'>
+<class 'int'>
+ 8
+0
+1
+1
+2
