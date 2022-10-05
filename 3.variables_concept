@@ -1,0 +1,21 @@
+user_iq=190
+iq=user_iq
+normal=iq/2
+print(iq)
+#print( 'average iq of a normal person is:' + normal)
+print(  'hello' ) 
+print(normal)
+a,b,c=1,2,3
+print(a)
+print(b)
+print(c)
+
+
+-------------/
+conversions
+190
+hello
+95.0
+1
+2
+3
