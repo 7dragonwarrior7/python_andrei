@@ -1,0 +1,12 @@
+print(bin(5))-------------> will convert into binary format from int
+print(int('0b101',2))-----------------> will convert into int formt from binary
+
+
+
+
+
+
+--------------/
+
+0b101
+5
