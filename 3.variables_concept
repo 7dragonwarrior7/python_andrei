@@ -19,3 +19,8 @@ hello
 1
 2
 3
+----------/
+iq=190
+user_age=iq/5
+
+here 'iq/5' is expression and 'user_age=iq/5' is statement and also 'iq=190' is another statement
