@@ -1,0 +1,12 @@
+#formatted string
+name='johnny'
+age=32
+print('hi ' + name + '. you are' + str(age) + 'years old .')
+>>
+hi johnny. you are32years old .
+-------------/
+writing in string way
+name='johnny'
+age=32
+print(f'  hi {name} you are {age} years old')
+ >>hi johnny you are 32 years old
