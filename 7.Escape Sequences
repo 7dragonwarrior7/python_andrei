@@ -1,0 +1,9 @@
+print("\n hello world \'surprise\' i hope everything is \"fine\"" + "Dont you think so? \n \tare you? ") 
+\n---->will print new line
+\t-----> will print tab
+\' or \" consider backslash next symbol quatation will be as quatition only,it wont search for closing quatation mark. it will assume as sarkar(')s meaning.
+
+-----------/
+print("\n hello world \'surprise\' i hope everything is \"fine\"" + "Dont you think so? \n \tare you? ") 
+ hello world 'surprise' i hope everything is "fine"Dont you think so? 
+    are you?
