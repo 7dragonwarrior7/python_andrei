@@ -1,0 +1,13 @@
+#Built in functions
+#https://docs.python.org/3/library/functions.html
+#https://www.w3schools.com/python/python_ref_string.asp
+
+greet='helloooooooo'
+print(greet[0:len(greet)])------->>helloooooooo
+
+----------/
+#with this quto we can use some methods
+quote='to be or not to be'
+print(quote.upper())--------------->>TO BE OR NOT TO BE
+print(quote.capitalize())----------------->>To be or not to be
+print(quote.replace('be','bee'))--------------->>to bee or not to bee
