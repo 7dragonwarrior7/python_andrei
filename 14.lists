@@ -1,0 +1,52 @@
+li=[1,2,3,4,5]
+li2=['a','b','c']
+li3=[1,2,'a',True]
+
+amazon_cart =[
+'notebooks',
+'sunglasses',
+'toys',
+'grapes'
+]
+print(amazon_cart[1])---------->>sunglasses 
+## unlike variables, lists are immutable
+----------------/
+amazon_cart =[
+'notebooks',
+'sunglasses',
+'toys',
+'grapes'
+]
+print(amazon_cart[1])
+#updating amazon_Cart as lists are mutble
+amazon_cart[0]='laptop'
+print(amazon_cart)--------------->> cart updated by mutable concept
+-----------------/
+another scenario(where amazon cart will be modified because of using newcart slice)
+#list slicing
+amazon_cart =[
+'notebooks',
+'sunglasses',
+'toys',
+'grapes'
+]
+amazon_cart[0] ='laptop'
+new_cart= amazon_cart
+new_cart[0]='gum'
+print(new_cart)------------->>['gum', 'sunglasses', 'toys', 'grapes']
+print(amazon_cart)------------->>['gum', 'sunglasses', 'toys', 'grapes']
+-------------/
+another scenario(where amazon cart will not be modified because of using newcart slice with [:])
+#list slicing
+amazon_cart =[
+'notebooks',
+'sunglasses',
+'toys',
+'grapes'
+]
+amazon_cart[0] ='laptop'
+new_cart= amazon_cart[:]
+new_cart[0]='gum'
+print(new_cart)------------->>['gum', 'sunglasses', 'toys', 'grapes']
+print(amazon_cart)------------->>['laptop', 'sunglasses', 'toys', 'grapes']
+----------------------/
