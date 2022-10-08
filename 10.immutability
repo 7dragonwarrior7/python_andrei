@@ -1,0 +1,22 @@
+Strings in python are immutable that means they can not be changed
+eg:
+selfish= "hello"
+print(selfish)-------->>hello
+------------/
+//modifying//
+selfish= "hello"
+selfish="hello2"
+print(selfish)------->hello2 #thats because system checks recent updated selfish word and prints but that dosent mean it will original value changes.check below
+---------------/
+//furthe modifying//
+selfish= "hello"
+print(selfish)
+selfish="hello2"
+print(selfish)
+selfish[0]=hello3------->> after executing compiling recevied syntax error, as we can not define already defined. (this is called immutable)
+===============/
+selfish = '1234567'
+print(selfish + '8')----------->>12345678
+print (selfish)----------->>1234567 # original did not get changed
+=============/
+
