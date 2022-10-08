@@ -1,1 +1,9 @@
 hi
+--------------//
+#Doubt1
+quote='to be or not to be'
+print(quote.upper())
+print(quote.capitalize())
+print(quote.replace('be','bee')) =hi ---------->> cant we assign function outcome to a variable??
+print (hi)
+--------//
