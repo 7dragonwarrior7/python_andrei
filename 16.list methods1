@@ -1,0 +1,26 @@
+# append
+# insert
+# extend
+# remove_methods
+
+
+
+
+
+---------------------/
+#remove_methods
+#remove
+basket=[1,2,3,4,5]
+new_list=basket.extend([100,101])
+basket.pop()
+print(basket)>>[1, 2, 3, 4, 5, 100]
+basket.pop()
+print(basket)>>[1, 2, 3, 4, 5]
+basket.pop(0)
+print(basket)>>[2, 3, 4, 5]
+basket.remove(4)
+print(basket)>>[2, 3, 5]
+basket.clear()
+print(basket)>>[]
+
+----------/
