@@ -17,3 +17,16 @@ print(basket)>>['a', 'b', 'c', 'd', 'd', 'e']
 basket =['a','b','c','d','e' ,'d']
 print(sorted(basket))>>['a', 'b', 'c', 'd', 'd', 'e']  #this will not disturb original basket
 print(basket)>>['a','b','c','d','e' ,'d']  
+
+--------/
+#sort
+#reverse
+basket =['a','b','c','d','e' ,'d']
+basket.reverse()
+print(basket)>>['d', 'e', 'd', 'c', 'b', 'a']
+
+#if you want sorted way in reverse order then
+basket.sort()
+basket.reverse()
+print(basket)>>['e', 'd', 'd', 'c', 'b', 'a']
+
