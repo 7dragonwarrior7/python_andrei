@@ -8,7 +8,7 @@ basket =[1,2,3,4,5]
 #adding
 new_list=basket.append(100)
 print(new_list)>>None
-#but if u want use new_list as 'fixed variable' then "new_list=basket[:]"  ----->> in this way you will not change original basket
+#but if u want use new_list as 'fixed variable' then "new_list=basket[:]" or "new_list=basket.copy()"  ----->> in this way you will not change original basket
 print(basket)>>[1, 2, 3, 4, 5, 100]
 -------/
 #insert
