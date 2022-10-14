@@ -1,0 +1,19 @@
+#list2
+basket =['a','b','c','d','e']
+print(basket.index('d')) >> 3
+print('x' in basket) >> False
+print( 'i' in 'hi my name is andrei') >> true
+print(basket.count('d')) >>1
+
+
+-----------/
+#sort
+#sort
+basket =['a','b','c','d','e' ,'d']
+basket.sort()
+print(basket)>>['a', 'b', 'c', 'd', 'd', 'e']
+
+# extra info
+basket =['a','b','c','d','e' ,'d']
+print(sorted(basket))>>['a', 'b', 'c', 'd', 'd', 'e']  #this will not disturb original basket
+print(basket)>>['a','b','c','d','e' ,'d']  
