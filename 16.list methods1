@@ -2,6 +2,26 @@
 # insert
 # extend
 # remove_methods
+----------/
+basket =[1,2,3,4,5]
+
+#adding
+new_list=basket.append(100)
+print(new_list)>>None
+print(basket)>>[1, 2, 3, 4, 5, 100]
+-------/
+#insert
+basket =[1,2,3,4,5]
+new_list=basket.insert(2,100)
+print(basket)>>[1, 2, 100, 3, 4, 5]
+-------/
+#extend
+basket =[1,2,3,4,5]
+new_list=basket.extend([100 ,101])
+print(basket)>>[1, 2, 3, 4, 5, 100, 101]
+
+
+
 
 
 
